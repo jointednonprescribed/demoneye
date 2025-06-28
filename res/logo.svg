@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="512"
+   height="512"
+   viewBox="0 0 512 512"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   sodipodi:docname="demoneye.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title
+     id="title17">Demoneye Engine &amp; SDK Official Logo</title>
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="false"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="1.3079145"
+     inkscape:cx="275.24735"
+     inkscape:cy="289.00972"
+     inkscape:window-width="1671"
+     inkscape:window-height="1087"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g3" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Eyelid Upper"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline">
+    <path
+       style="fill:none;stroke:#b84412;stroke-width:11.3386;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 64.300338,255.78241 c 131.380582,-62.96892 265.267052,-58.20211 383.387562,0"
+       id="path2"
+       sodipodi:nodetypes="cc" />
+  </g>
+  <g
+     inkscape:label="Eyelid Lower"
+     inkscape:groupmode="layer"
+     id="g3">
+    <path
+       style="fill:none;stroke:#b84412;stroke-width:11.3386;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 64.300272,256.2173 c 131.346268,62.96932 265.197778,58.20248 383.287438,0"
+       id="path3"
+       sodipodi:nodetypes="cc" />
+    <ellipse
+       style="fill:none;stroke:#b84412;stroke-width:9.83173;stroke-opacity:1"
+       id="path1"
+       cx="259.29999"
+       cy="256"
+       rx="44.849136"
+       ry="43.318039" />
+    <rect
+       style="stroke-opacity:1;stroke-width:11.3386;stroke:#b84412;fill:none;"
+       id="rect4"
+       width="510.93045"
+       height="510.93045"
+       x="0.53477794"
+       y="0.53477794" />
+    <path
+       style="fill:none;stroke:#b84412;stroke-width:4.5;stroke-opacity:1"
+       d="M 258.25,181.127 V 112.689"
+       id="path9" />
+    <path
+       style="fill:none;stroke:#b84412;stroke-width:4.5;stroke-opacity:1"
+       d="M 106.33349,197.89536 45.351857,131.26702"
+       id="path10" />
+    <path
+       style="fill:none;stroke:#b84412;stroke-width:4.5;stroke-opacity:1"
+       d="M 414.16777,197.89536 475.1494,131.26702"
+       id="path14" />
+    <path
+       style="fill:none;stroke:#b84412;stroke-width:4.5;stroke-opacity:1"
+       d="M 258.25,401.227 V 332.789"
+       id="path15" />
+    <path
+       style="fill:none;stroke:#b84412;stroke-width:4.5;stroke-opacity:1"
+       d="m 414.16777,313.1671 60.98163,66.62834"
+       id="path16" />
+    <path
+       style="fill:none;stroke:#b84412;stroke-width:4.5;stroke-opacity:1"
+       d="M 106.33349,314.8671 45.351857,381.49544"
+       id="path17" />
+  </g>
+  <metadata
+     id="metadata17">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Demoneye Engine &amp; SDK Official Logo</dc:title>
+        <dc:date>June 23, 2025</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>jointednonprescribed</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>CC0 Attribution License</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>jointednonprescribed</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

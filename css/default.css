@@ -1,0 +1,36 @@
+
+/* bg color (orange): 184, 68,  18
+ * bg color (white):  235, 235, 235
+ * text color:        38,  38,  38
+**/
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(184, 68, 18);
+    color: rgb(235, 235, 235);
+
+    /* Font Face */
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.textpage {
+    background-color: white;
+    color: rgb(30, 30, 30);
+    border: 2px solid rgb(200, 200, 200);
+    border-radius: 10px;
+
+    margin-top: 4vh;
+    margin-left: 4vw;
+    margin-right: 4vw;
+
+    padding: 1vw 1vw 1vw 1vw;
+}
+.textpage a {
+    color: rgb(184, 68, 18);
+}

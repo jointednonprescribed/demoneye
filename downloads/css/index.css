@@ -1,0 +1,67 @@
+
+/* Rules for Download Tables */
+.dltable {
+	grid-template-rows: max-content;
+	border: 2px solid rgb(71, 71, 71);
+	/* border-radius: 1vh; */
+	width: fit-content;
+	display: none;
+	transition: display 10ms step(1, jump-none);
+}
+/* Changed rule(s) when Download Tables are shown. */
+.dltable_shown {
+	display: grid;
+}
+/* Rules for table data within a Download Table */
+.dltable tr td {
+	border: 2px solid rgb(71, 71, 71);
+	/* border-radius: 1vh; */
+	padding: 5px 5px 5px 5px;
+}
+/* Rules for Download Table header rows */
+.dltable th {
+	border: 2px solid rgb(71, 71, 71);
+	/* border-radius: 1vh; */
+	padding: 5px 5px 5px 5px;
+}
+.dltable *.borderless-cell {
+	border: none;
+}
+
+/* Rules for Header Titles */
+.dltable_header {
+	display: none;
+	transition: display 10ms step(1, jump-none);
+}
+/* Changed rules(s) when showing a Header Title */
+.dltable_header_shown {
+	display: inherit;
+}
+
+/* Rules for grouping correlated Download Tables (SDK <=> Engine) */
+.dltable_pair {
+	flex-direction: row;
+	column-gap: 1vw;
+	justify-content: space-between;
+	display: flex;
+	transition: display 10ms step(1, jump-none);
+}
+
+/* Rules for grouping any given set containing a Header Title for a Download Table and the Download Table itself. */
+.dltable_header_pair {
+	display: flex;
+	transition: delay 10ms step(1, jump-none);
+
+	flex-direction: column;
+}
+
+
+/* Class for the Unsupported Platform Message, ID wouldnt work :( */
+.dltable_warning {
+	opacity: 0;
+	transition: opacity 10ms step(1, jump-none);
+}
+/* Change rule(s) when showing the Unsupported Platform Message. */
+.dltable_warning_shown {
+	opacity: 1;
+}

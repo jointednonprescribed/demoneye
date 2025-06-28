@@ -1,0 +1,96 @@
+
+/* bg color (orange): 184, 68,  18
+ * bg color (white):  235, 235, 235
+ * text color:        38,  38,  38
+**/
+
+header {
+	background-color: rgb(235, 235, 235);
+	color: rgb(184, 68, 18);
+	text-decoration: none;
+	border: 2px solid rgb(71, 71, 71);
+	height: 5em;
+	display: flex;
+	font-weight: bold;
+
+	position: sticky;
+	top: 0;
+	width: 100%;
+	/* padding: 0 0 0 0; */
+	transition: background-color 0.4s ease-in-out;
+}
+/* Page Logo */
+#logo {
+	justify-content: left;
+	position: relative;
+	/* transition: opacity 0.4s ease-in-out; */
+	right: 11vw;
+	top: 0.4vh;
+	transition: filter 0.4s ease-in-out;
+}
+#homepage_title {
+	justify-content: left;
+	position: relative;
+	transition: color 0.4s ease-in-out;
+
+	left: 6.5vw;
+	bottom: 7vh;
+}
+#homepage_title p {
+	line-height: 5px;
+}
+#homepage_title a {
+	text-decoration: none;
+	color: rgb(184, 68, 18);
+}
+
+/* Navigation Bar within Page Header */
+#navbar {
+	position: relative;
+	flex-direction: row;
+	justify-items: right;
+	padding: 1.5em 0 1.5em 5em;
+	font-size: 1.15em;
+	transition: color 0.4s ease-in-out;
+	margin: 1em;
+	color: rgb(184, 68, 18);
+
+	left:   18vw;
+	bottom: 1.75vh;
+}
+/* Navbar Links */
+#navbar a {
+	text-decoration: none;
+	color: rgb(184, 68, 18);
+	padding-right: 2vw;
+}
+/* Social Media Bar within Page Header */
+#socials {
+	position: relative;
+	color: rgb(184, 68, 18);
+	flex-direction: row;
+	justify-items: right;
+	margin: 0.1vw;
+	transition: filter 0.4s ease-in-out;
+
+	left: 18vw;
+	top:  2.15vh;
+}
+/* Social Media Links */
+#socials a {
+	text-decoration: none;
+	color: rgb(184, 68, 18);
+	padding-right: 0.8vw;
+}
+.scrolled_header {
+	background-color: rgba(235, 235, 235, 0.85);
+}
+.scrolled_header_element {
+	color: rgba(184, 68, 18, 0.3);
+}
+.scrolled_header_img {
+	filter: opacity(50%);
+}
+.scrolled_header_img2 {
+	filter: opacity(70%);
+}
