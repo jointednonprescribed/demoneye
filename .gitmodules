@@ -1,0 +1,6 @@
+[submodule "deps/glfw3.3"]
+	path = deps/glfw3.3
+	url = https://github.com/glfw/glfw.git
+[submodule "deps/sdl3.2.x"]
+	path = deps/sdl3.2.x
+	url = https://github.com/libsdl-org/SDL.git

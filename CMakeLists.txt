@@ -1,0 +1,27 @@
+
+cmake_minimum_required(VERSION 4.0)
+project(demoneye LANGUAGES CXX VERSION 25.1.0 DESCRIPTION "An OpenGL/SDL3 Open-Source Game Engine for the cross-platform community (written in C++, requires C++14+)." HOMEPAGE_URL "jointednonprescribed.github.io/demoneye")
+
+option(BUILD_STATIC "Build demoneye into a static library instead of a dynamic library." OFF)
+
+include_directories("sdk/include/" "deps/sdl3.2.x/include/" "deps/glfw3.3/include" "deps/glad/include")
+
+file(GLOB_RECURSE SDK_SRC  "sdk/lib/*.cxx")
+file(GLOB_RECURSE GLFW_CSRC "deps/glfw3.3/src/*.c")
+file(GLOB_RECURSE GLFW_MSRC "deps/glfw3.3/src/*.m")
+file(GLOB_RECURSE SDL3_CSRC "deps/glfw3.3/src/*.c")
+file(GLOB_RECURSE SDL3_MSRC "deps/glfw3.3/src/*.m")
+if (BUILD_STATIC)
+	add_library(libdemoneye STATIC "deps/glad/src/glad.c" ${SDK_SRC} ${GLFW_CSRC} ${GLFW_MSRC} ${SDL3_CSRC} ${SDL3_MSRC})
+	if (UNIX)
+		target_link_libraries(libdemoneye -lm)
+	endif(UNIX)
+else(BUILD_STATIC)
+	add_library(libdemoneye_deps SHARED "deps/glad/src/glad.c" ${GLFW_CSRC} ${GLFW_MSRC} ${SDL3_CSRC} ${SDL3_MSRC})
+	add_library(libdemoneye SHARED ${SDK_SRC})
+	target_link_libraries(libdemoneye libdemoneye_deps)
+	if (UNIX)
+		target_link_libraries(libdemoneye_deps -lm)
+		target_link_libraries(libdemoneye -lm)
+	endif(UNIX)
+endif(BUILD_STATIC)

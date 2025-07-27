@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/pepper/:p/jointednonprescribed/demoneye/main/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
